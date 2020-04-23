@@ -1,3 +1,144 @@
+/* 
+Colors:
+
+Background: #e8e8e8
+Primary Text/Hover: #2e2e2e
+Secondary Text: #757575
+*/
+
 body {
-  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  font-family: 'Avenir', sans-serif;
+  color: #2e2e2e;
+}
+
+/* Navigation */
+
+nav h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 2.8em;
+  margin-top: 37.184px;
+}
+
+#navLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+#navLinks a {
+  display: block;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+#navLinks a:hover {
+  background-color: #e8e8e8;
+  color: #2e2e2e;
+  border: solid 1px #2e2e2e;
+}
+
+#navToBio,
+#navToTechnologies,
+#navToProjects {
+  color: #e8e8e8;
+  float: left;
+  border: solid 1px #e8e8e8;
+  border-radius: .2em;
+  margin: 15px;
+}
+
+/* Primary View */
+
+.primaryView {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fullPage {
+  background-color: #2e2e2e;
+  color: #e8e8e8;
+  width: 600px;
+  margin: 25px;
+  padding: 15px;
+  border: solid 1px #2e2e2e;
+  border-radius: .2em;
+}
+
+.fullPage p {
+  padding: 0px 10px 10px 10px;
+}
+
+.fullPage h3 {
+  text-align: center;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#technologiesPage ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#technologiesPage li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #e8e8e8;
+  border-radius: .2em;
+  background-color: #e8e8e8;
+  color: #2e2e2e;
+  font-weight: 700;
+}
+
+/* Font Awesome */
+
+.fas, 
+.fab {
+  color: #757575;
+  font-size: 2em;
+}
+
+.fas:focus, 
+.fas:hover,
+.fab:focus, 
+.fab:hover {
+  color: #2e2e2e;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials a {
+  margin: 10px;
+}
+
+/* Footer */
+
+footer p {
+  color: #757575;
+  font-size: .8em;
+  text-align: center;
 }
