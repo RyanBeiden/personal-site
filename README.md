@@ -1,5 +1,5 @@
 # Personal Bio Site
-This site will display my current projects (with links), the technologies I work with and little bit about myself! This is a forever work in progress, but especially right now, as I am building my first web apps, I will be displaying them here for all to see. Currently, the projects **are not mine** but more to test the site's functionality
+This site will display my current projects (with links), the technologies I work with and little bit about myself! This is a forever work in progress, but especially right now, as I am building my first web apps, I will be displaying them here for all to see. Currently, the projects **are not mine** but more to test the site's functionality.
 
 ## Preview
 
