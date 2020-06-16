@@ -9,7 +9,7 @@ Secondary Text: #757575
 body {
   margin: 0;
   padding: 0;
-  background-color: #e8e8e8;
+  background-color:  #FAFAFA;
   font-family: 'Avenir', sans-serif;
   color: #2e2e2e;
 }
@@ -27,9 +27,9 @@ nav h1 {
 #navLinks {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 30px 10px 50px 10px;
   overflow: hidden;
-  background-color: #2e2e2e;
+  background-color: #7AD79A;;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -42,22 +42,23 @@ nav h1 {
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
+  transition: ease-in-out 200ms;
 }
 
 #navLinks a:hover {
-  background-color: #e8e8e8;
-  color: #2e2e2e;
-  border: solid 1px #2e2e2e;
+  background-color: #FAFAFA;
+  box-shadow: 5px -5px #499192;
 }
 
 #navToBio,
 #navToTechnologies,
 #navToProjects {
-  color: #e8e8e8;
+  background-color: #FAFAFA;
+  color: #499192;
   float: left;
-  border: solid 1px #e8e8e8;
-  border-radius: .2em;
-  margin: 15px;
+  border: solid 1px #499192;
+  margin: 15px 15px 0px 15px;
+  box-shadow: 5px 5px #499192;
 }
 
 /* Primary View */
