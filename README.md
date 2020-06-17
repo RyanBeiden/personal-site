@@ -3,7 +3,7 @@ This site will display my current projects (with links), the technologies I work
 
 ## Preview
 
-![Demo of Personal Bio Site](personal-bio-site-demo.gif)
+*Not yet available*
 
 ## View Project
 - Clone the repository 👉🏼`$ git clone https://github.com/RyanBeiden/personal-bio-site.git`
