@@ -1,0 +1,101 @@
+@import '../../../styles/styles';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+  background-image: url(../../../assets/Anapurna-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #739bb6;
+}
+
+/* Socials */
+
+.socials {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+
+  .fab {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 2px solid $primary-color;
+    border-radius: .1em;
+  }
+
+  .fab {
+    color: $primary-color;
+    box-shadow: 7px 7px $secondary-color;
+    transition: ease-in-out 200ms;
+  }
+
+  .fab:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+}
+
+/* Navigation */
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-page {
+  margin: 0 auto;
+  max-width: 880px;
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  top: 32%;
+
+    h1 {
+      text-align: center;
+      color: #fff;
+      font-family: $primary-font;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-size: 4.8em;
+      margin: 0px 0px 0px 8px;
+    }
+
+    h3 {
+      font-family: $secondary-font;
+      text-align: center;
+      font-size: 1.3em;
+      color: #fff;
+      padding: 0px;
+      margin: 0;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+      padding: 10px 15px;
+      margin: 20px;
+      border: 2px solid $primary-color;
+      border-radius: .1em;
+      color: $primary-color;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-size: 1.2em;
+      font-family: $button-font;
+      box-shadow: 7px 7px $secondary-color;
+      transition: ease-in-out 200ms;
+    }
+
+    li:hover {
+      box-shadow: none;
+      background-color: $secondary-color;
+      border-color: $secondary-color;
+      cursor: pointer;
+    }
+}
