@@ -1,0 +1,21 @@
+
+@mixin buttons($padding, $margin, $background, $color) {
+  padding: $padding;
+  margin: $margin;
+  background-color: $background;
+  color: $color;
+  border: 2px solid $primary-color;
+  border-radius: .1em;
+  box-shadow: 7px 7px $secondary-color;
+  text-transform: uppercase;
+  transition: ease-in-out 200ms;
+  }
+
+@mixin background {
+  background-image: url(../../../assets/Anapurna-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #739bb6;
+}
