@@ -1,13 +1,9 @@
 @import '../../../styles/styles';
+@import '../../../styles/mixins';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-image: url(../../../assets/Anapurna-1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #739bb6;
+  @include background;
 }
 
 /* Socials */
@@ -18,23 +14,15 @@ body {
   font-size: 2em;
 
   .fab {
-    margin: 10px;
-    padding: 5px 10px;
-    border: 2px solid $primary-color;
-    border-radius: .1em;
-  }
-
-  .fab {
-    color: $primary-color;
-    box-shadow: 7px 7px $secondary-color;
-    transition: ease-in-out 200ms;
+    @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
   }
 
   .fab:hover {
     cursor: pointer;
     box-shadow: none;
-    background-color: $secondary-color;
-    border-color: $secondary-color;
+    background-color: transparent;
+    border-color: $primary-color;
+    color: $primary-color;
   }
 }
 
@@ -55,7 +43,7 @@ body {
 
     h1 {
       text-align: center;
-      color: #fff;
+      color: $primary-color;
       font-family: $primary-font;
       font-weight: 500;
       text-transform: uppercase;
@@ -68,28 +56,21 @@ body {
       font-family: $secondary-font;
       text-align: center;
       font-size: 1.3em;
-      color: #fff;
-      padding: 0px;
+      color: $primary-color;
+      padding: 0px 0px 5px 0px;
       margin: 0;
     }
 
     ul {
       padding: 0;
+      font-size: 1.2em;
+      letter-spacing: .1em;
     }
 
     li {
+      @include buttons(10px 15px, 20px, transparent, $primary-color);
       list-style-type: none;
-      padding: 10px 15px;
-      margin: 20px;
-      border: 2px solid $primary-color;
-      border-radius: .1em;
-      color: $primary-color;
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      font-size: 1.2em;
       font-family: $button-font;
-      box-shadow: 7px 7px $secondary-color;
-      transition: ease-in-out 200ms;
     }
 
     li:hover {
