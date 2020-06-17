@@ -1,64 +1,6 @@
-/* 
-Colors:
-
-Background: #e8e8e8
-Primary Text/Hover: #2e2e2e
-Secondary Text: #757575
-*/
-
-body {
+* {
   margin: 0;
   padding: 0;
-  background-color:  #FAFAFA;
-  font-family: 'Avenir', sans-serif;
-  color: #2e2e2e;
-}
-
-/* Navigation */
-
-nav h1 {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  font-size: 2.8em;
-  margin-top: 37.184px;
-}
-
-#navLinks {
-  list-style-type: none;
-  margin: 0;
-  padding: 30px 10px 50px 10px;
-  overflow: hidden;
-  background-color: #7AD79A;;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-}
-
-#navLinks a {
-  display: block;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-  transition: ease-in-out 200ms;
-}
-
-#navLinks a:hover {
-  background-color: #FAFAFA;
-  box-shadow: 5px -5px #499192;
-}
-
-#navToBio,
-#navToTechnologies,
-#navToProjects {
-  background-color: #FAFAFA;
-  color: #499192;
-  float: left;
-  border: solid 1px #499192;
-  margin: 15px 15px 0px 15px;
-  box-shadow: 5px 5px #499192;
 }
 
 /* Primary View */
