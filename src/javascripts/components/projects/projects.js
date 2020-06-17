@@ -1,29 +1,40 @@
-const printToDom = (selector, textToPrint) => {
-  const selectedDiv = document.querySelector(selector);
-  selectedDiv.innerHTML = textToPrint;
-};
+import utils from '../../helpers/utils';
+import projectData from '../../helpers/data/projectData';
+import '../../../styles/main.scss';
+import './projects.scss';
 
-const createProjectCards = (arr) => {
-  let domString = '';
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].available === true) {
-      domString += '<div class="container">';
-      domString += `<h2>- ${arr[i].title} -</h2>`;
-      domString += '<div class="image-container">';
-      domString += `<img src="${arr[i].screenshot}">`;
-      domString += '</div>';
-      domString += `<p>${arr[i].description}</p>`;
-      domString += `<h4>${arr[i].technologiesUsed}</h4>`;
-      domString += `<a href="${arr[i].url}" target="_blank">View Project</a>`;
-      domString += `<a href="${arr[i].githubURL}" target="_blank">View Repository</a>`;
-      domString += '</div>';
+const projects = projectData.getProjects();
+
+const buildProjectCards = () => {
+  let domString = `
+    <div class="socials">
+      <a id="go-home"><i class="fas fa-home"></i></a>
+      <a href="https://github.com/RyanBeiden" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/ryanbeiden" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="row">
+  `;
+  projects.forEach((project) => {
+    if (project.available === true) {
+      domString += `
+        <div class="container projectsPage col">
+          <h2>- ${project.title} -</h2>
+          <div class="image-container">
+            <img src="${project.screenshot}">
+          </div>
+          <p>${project.description}</p>
+          <h4>${project.technologiesUsed}</h4>
+          <a href="${project.url}" target="_blank">View Project</a>
+          <a href="${project.githubURL}" target="_blank">View Repository</a>
+        </div>
+      `;
     } else;
-  }
-  printToDom('#projectsPage', domString);
+  });
+  domString += '</div>';
+  utils.printToDom('#web-page', domString);
+  $('.clear').addClass('blur').removeClass('clear');
 };
 
-const init = () => {
-  createProjectCards(projects);
-}
+$('body').on('click', '#go-home', utils.goHome);
 
-init();
+export default { buildProjectCards };

@@ -11,8 +11,8 @@
   transition: ease-in-out 200ms;
   }
 
-@mixin background {
-  background-image: url(../../../assets/Anapurna.jpg);
+@mixin background ($url) {
+  background-image: url($url);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

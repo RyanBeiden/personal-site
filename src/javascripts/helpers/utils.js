@@ -2,4 +2,8 @@ const printToDom = (selector, text) => {
   $(selector).html(text);
 };
 
-export default { printToDom };
+const goHome = () => {
+  window.location.reload();
+};
+
+export default { printToDom, goHome };

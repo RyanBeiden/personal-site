@@ -1,0 +1,82 @@
+@import '../../../styles/styles';
+@import '../../../styles/mixins';
+
+.socials {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+
+  .fab,
+  .fas {
+    @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
+  }
+
+  .fab:hover,
+  .fas:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: transparent;
+    border-color: $primary-color;
+    color: $primary-color;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectsPage {
+
+  border: 2px solid $primary-color;
+  border-radius: .1em;
+  margin: 50px;
+  padding: 25px;
+  background-color: $primary-color;
+  
+  img {
+    width: 550px;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+    color: $primary-color;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px 0px;
+  }
+
+  p {
+    text-align: center;
+    color: $primary-color;
+    font-size: 1.2em;
+    margin: 35px 0px 0px 0px;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    margin: 15px;
+    padding: 25px 15px 25px 15px;
+    font-weight: 500;
+    border-top: 1px solid #e8e8e8;
+    border-radius: .1em;
+  }
+
+  a {
+    border: solid 1px #e8e8e8;
+    border-radius: .2em;
+    background-color: #2e2e2e;
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 35px 15px 25px 15px;
+  }
+
+  a:hover {
+    border: solid 1px #e8e8e8;
+    border-radius: .2em;
+    background-color: #e8e8e8;
+    color: #2e2e2e;
+  }
+}
