@@ -1,3 +1,4 @@
+import bio from '../bioPage/bio';
 import utils from '../../helpers/utils';
 import projects from '../projects/projects';
 import './landingPage.scss';
@@ -27,6 +28,7 @@ const buildLandingPage = () => {
   `;
   utils.printToDom('#web-page', domString);
   $('body').on('click', '#proj', projects.buildProjectCards);
+  $('body').on('click', '#bio', bio.buildBio);
 };
 
 export default { buildLandingPage };

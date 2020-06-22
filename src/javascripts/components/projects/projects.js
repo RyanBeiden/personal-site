@@ -62,7 +62,6 @@ const buildProjectCards = () => {
   });
   domString += `
   </div>
-  <footer>© 2020 Ryan Beiden</footer>
   `;
   utils.printToDom('#web-page', domString);
   $('.clear').addClass('blur').removeClass('clear');
