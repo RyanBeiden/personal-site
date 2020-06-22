@@ -64,7 +64,7 @@
     }
 
     li {
-      @include buttons(10px 15px, 20px, transparent, $primary-color);
+      @include buttons(10px 15px, 0px, transparent, $primary-color);
       list-style-type: none;
       font-family: $button-font;
     }
