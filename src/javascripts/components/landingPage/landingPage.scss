@@ -2,16 +2,11 @@
 @import '../../../styles/mixins';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-  @include background;
-}
-
 /* Socials */
 
 .socials {
-  text-align: center;
-  padding-top: 50px;
   font-size: 2em;
+  margin-left: 20px;
 
   .fab {
     @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
@@ -49,7 +44,7 @@ body {
       text-transform: uppercase;
       letter-spacing: .1em;
       font-size: 4.8em;
-      margin: 0px 0px 0px 8px;
+      margin: 0px 0px 25px 8px;
     }
 
     h3 {
@@ -57,7 +52,7 @@ body {
       text-align: center;
       font-size: 1.3em;
       color: $primary-color;
-      padding: 0px 0px 5px 0px;
+      padding: 0px 0px 30px 0px;
       margin: 0;
     }
 
@@ -68,7 +63,7 @@ body {
     }
 
     li {
-      @include buttons(10px 15px, 20px, transparent, $primary-color);
+      @include buttons(10px 15px, 0px, transparent, $primary-color);
       list-style-type: none;
       font-family: $button-font;
     }

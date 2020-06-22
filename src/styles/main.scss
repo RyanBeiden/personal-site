@@ -1,6 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+@import 'mixins';
+
 * {
   margin: 0;
   padding: 0;
+}
+
+.clear {
+  @include background('../assets/anapurna.jpg');
+}
+
+.blur {
+  @include background('../assets/anapurna-blur.jpg');
+}
+
+.icons {
+  position: fixed;
 }
 
 /* Primary View */
@@ -119,41 +134,4 @@
   border-radius: .2em;
   background-color: #e8e8e8;
   color: #2e2e2e;
-}
-
-/* Font Awesome */
-
-.fas, 
-.fab {
-  color: #989898;
-  font-size: 2.2em;
-}
-
-.fas:focus, 
-.fas:hover,
-.fab:focus, 
-.fab:hover {
-  color: #757575;
-}
-
-.socials {
-  display: flex;
-  justify-content: center;
-}
-
-.socials a {
-  margin: 10px;
-}
-
-/* Footer */
-
-footer {
-  background-color: #2e2e2e;
-  padding: 15px 15px 5px 0px;
-}
-
-footer p {
-  color: #757575;
-  font-size: .9em;
-  text-align: center;
 }
