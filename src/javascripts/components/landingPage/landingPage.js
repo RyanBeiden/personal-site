@@ -7,9 +7,13 @@ let domString = '';
 
 const buildLandingPage = () => {
   domString += `
-    <div class="socials">
-      <a href="https://github.com/RyanBeiden" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/ryanbeiden" target="_blank"><i class="fab fa-instagram"></i></a>
+    <div class="icons">
+      <div class="socials mt-4">
+        <a href="https://github.com/RyanBeiden" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/ryanbeiden" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
     <nav class="landing-page">
       <h1>Ryan Beiden</h1>

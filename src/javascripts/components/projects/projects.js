@@ -5,19 +5,38 @@ import './projects.scss';
 
 const projects = projectData.getProjects();
 
+const scrollEvent = (e) => {
+  e.preventDefault();
+  window.scroll({
+    top: 1000,
+    left: 1000,
+    behavior: 'smooth',
+  });
+  $('.arrow').addClass('no-arrow');
+};
+
 const buildProjectCards = () => {
   let domString = `
-    <div class="socials">
-      <a id="go-home"><i class="fas fa-home"></i></a>
-      <a href="https://github.com/RyanBeiden" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/ryanbeiden" target="_blank"><i class="fab fa-instagram"></i></a>
+    <div class="icons">
+      <div class="arrow">
+        <a id="down-arrow"><i class="fas fa-arrow-down"></i></a>
+      </div>
+      <div class="home mt-4">
+        <a id="go-home"><i class="fas fa-home"></i></a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/RyanBeiden" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/ryanbeiden" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-    <div class="row d-flex align-items-start">
+    <div class="d-flex align-items-center justify-content-center flex-wrap">
   `;
   projects.forEach((project) => {
     if (project.available === true) {
       domString += `
-        <div class="container projects-page col">
+        <div class="projects-page">
           <h2>${project.title}</h2>
           <div class="project-container">
             <div class="description">
@@ -41,11 +60,14 @@ const buildProjectCards = () => {
       `;
     } else;
   });
-  domString += '</div>';
+  domString += `
+  </div>
+  <footer>© 2020 Ryan Beiden</footer>
+  `;
   utils.printToDom('#web-page', domString);
   $('.clear').addClass('blur').removeClass('clear');
+  $('body').on('click', '#go-home', utils.goHome);
+  $('body').on('click', '#down-arrow', scrollEvent);
 };
-
-$('body').on('click', '#go-home', utils.goHome);
 
 export default { buildProjectCards };

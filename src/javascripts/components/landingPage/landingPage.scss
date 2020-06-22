@@ -5,9 +5,8 @@
 /* Socials */
 
 .socials {
-  text-align: center;
-  padding-top: 50px;
   font-size: 2em;
+  margin-left: 20px;
 
   .fab {
     @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
