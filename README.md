@@ -20,7 +20,7 @@ Bio & Technologies Pages:
 - `$ npm start` to view 👀
 
 ## Technologies Used
-[![Vanilla JavaScript](https://img.shields.io/badge/-Vanilla%20JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![CSS](https://img.shields.io/badge/-CSS-2c9fcc?style=flat-square)](#)
+[![JavaScript](https://img.shields.io/badge/-Vanilla%20JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![SASS](https://img.shields.io/badge/-SASS-2c9fcc?style=flat-square)](#) [![JQuery](https://img.shields.io/badge/-JQuery-2c9fcc?style=flat-square)](#)
 
 #### Backlog/Roadmap
 
