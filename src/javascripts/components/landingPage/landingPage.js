@@ -1,6 +1,7 @@
 import bio from '../bioPage/bio';
 import utils from '../../helpers/utils';
 import projects from '../projects/projects';
+import tech from '../techPage/tech';
 import './landingPage.scss';
 import '../../../styles/main.scss';
 
@@ -28,6 +29,7 @@ const buildLandingPage = () => {
   `;
   utils.printToDom('#web-page', domString);
   $('body').on('click', '#proj', projects.buildProjectCards);
+  $('body').on('click', '#tech', tech.buildTech);
   $('body').on('click', '#bio', bio.buildBio);
 };
 
