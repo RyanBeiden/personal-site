@@ -15,8 +15,11 @@ const buildTech = () => {
         <a href="https://www.instagram.com/ryanbeiden" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
-    <div class="d-flex justify-content-center">
-      <h1>Technologies</h1>
+    <div class="container">
+      <h1 class="tech-title">Technology Knowledge Chart</h1>
+      <div class="d-flex justify-content-center">
+        <img class="tech-table" src="../../../src/assets/tech.png">
+      </div>
     </div>
   `;
   utils.printToDom('#web-page', domString);
