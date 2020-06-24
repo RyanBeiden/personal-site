@@ -1,14 +1,23 @@
 # Personal Bio Site
-This site will display my current projects (with links), the technologies I work with and little bit about myself! This is a forever work in progress, but especially right now, as I am building my first web apps, I will be displaying them here for all to see. Currently, the projects **are not mine** but more to test the site's functionality.
+This site will display my current projects (with links), the technologies I work with and little bit about myself! This is a forever work in progress, but especially right now, as I am building my first web apps, I will be displaying them here for all to see. Currently, projects **1 & 2** are mine.
+>*Note: the exisiting projects have not been deployed yet and will link to their Github Repositories for now.*
 
 ## Preview
 
-*Not yet available*
+Projects page:
+
+![gif of projects section of web app](./src/assets/personal-bio-site-demo-1.gif)
+
+---
+
+Bio & Technologies Pages:
+
+![gif of projects section of web app](./src/assets/personal-bio-site-demo-2.gif)
 
 ## View Project
-- Clone the repository 👉🏼`$ git clone https://github.com/RyanBeiden/personal-bio-site.git`
-
-- Run any http server `$ hs` or code editor to view project 👀
+- Clone the repository 👉🏼 `$ git clone https://github.com/RyanBeiden/personal-bio-site.git`
+- Install the dependencies 👉🏼 `$ npm install`
+- `$ npm start` to view 👀
 
 ## Technologies Used
 [![Vanilla JavaScript](https://img.shields.io/badge/-Vanilla%20JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![CSS](https://img.shields.io/badge/-CSS-2c9fcc?style=flat-square)](#)
@@ -17,7 +26,4 @@ This site will display my current projects (with links), the technologies I work
 
 [![WIP](https://img.shields.io/badge/-Work%20In%20Progress-orange?style=flat-square)](#)
 
-- Add my current projects with links to their repositories and to view the project (either live or by cloning the repository)
-- Add functionality to buttons
-- Build a WIP section and a FInished Projects section
-- More to come
+- Build a WIP section and a Finished Projects section
