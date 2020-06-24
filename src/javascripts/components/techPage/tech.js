@@ -16,9 +16,9 @@ const buildTech = () => {
       </div>
     </div>
     <div class="container">
-      <h1 class="tech-title">Technology Knowledge Chart</h1>
+      <h1 class="tech-title">Tech Knowledge Chart</h1>
       <div class="d-flex justify-content-center">
-        <img class="tech-table" src="../../../src/assets/tech.png">
+        <img class="tech-table" src="../../../src/assets/tech.svg">
       </div>
     </div>
   `;
