@@ -56,10 +56,10 @@ const buildBio = () => {
           of my favorite things about Web Development. When something finally works like you want it to, that is so fulfilling, and I 
           want to continue to chase those challenges.</br>
           I am also newly engaged to a kind & beautiful girl named Hailey! (Image 3)</p>
-            <a href="https://www.facebook.com/ryan.beiden/" target="_blank"><i id="extra-links" class="fab fa-facebook-f"></i></a>
-            <a href="https://ryanbeiden.com/portfolio" target="_blank"><i id="extra-links" class="fas fa-camera"></i></a>
-            <a href="https://ryanbeiden.com/experiences" target="_blank"><i id="extra-links" class="fas fa-pen-square"></i></a>
-          </div>
+          <a href="https://www.facebook.com/ryan.beiden/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://ryanbeiden.com/portfolio" target="_blank"><i class="fas fa-camera-retro"></i></a>
+          <a href="https://ryanbeiden.com/experiences" target="_blank"><i class="fas fa-pen-fancy" style="font-size: 1.8em;"></i></a>
+          <a href="mailto:rdbeiden@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
         </div>
       </div>
     </div>
