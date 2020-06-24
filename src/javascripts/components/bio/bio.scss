@@ -23,7 +23,10 @@
   }
 }
 
-#extra-links {
+.fa-facebook-f,
+.fa-camera-retro,
+.fa-pen-fancy,
+.fa-envelope {
   text-align: center;
   border: none;
   border-radius: none;
@@ -31,10 +34,15 @@
   color: $primary-color;
   background-color: transparent;
   font-size: 2em;
-  margin: 0px;
+  margin: 10px;
+  padding: 0px;
+  transition: ease-in 200ms;
 }
 
-#extra-links:hover {
+.fa-facebook-f:hover,
+.fa-camera-retro:hover,
+.fa-pen-fancy:hover,
+.fa-envelope:hover {
   cursor: pointer;
   color: $secondary-color;
 }

@@ -1,10 +1,13 @@
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';
+@import 'styles';
 @import 'mixins';
 
 * {
   margin: 0;
   padding: 0;
 }
+
+// Mountain Image
 
 .clear {
   @include background('../assets/anapurna.jpg');
@@ -14,124 +17,34 @@
   @include background('../assets/anapurna-blur.jpg');
 }
 
+// Icons
+
 .icons {
   position: fixed;
 }
 
-/* Primary View */
-
-.primaryView {
-  margin: 50px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.socials {
+  font-size: 2em;
+  margin-left: 20px;
 }
 
-.fullPage {
-  background-color: #2e2e2e;
-  color: #e8e8e8;
-  margin: 25px;
-  padding: 15px;
-  border: solid 1px #2e2e2e;
-  border-radius: .2em;
+.home {
+  font-size: 1.9em;
+  margin-left: 20px;
 }
 
-.fullPage p {
-  padding: 0px 10px 10px 10px;
+.fa-github,
+.fa-instagram,
+.fa-home {
+  @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
 }
 
-.fullPage h3 {
-  text-align: center;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-#bioPage,
-#technologiesPage {
-  width: 500px;
-  flex-grow: 1;
-}
-
-#technologiesPage ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-#technologiesPage li {
-  list-style-type: none;
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #e8e8e8;
-  border-radius: .2em;
-  background-color: #e8e8e8;
-  color: #2e2e2e;
-  font-weight: 700;
-}
-
-#projectsPage {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-#projectsPage .container {
-  width: 600px;
-  text-align: center;
-  border: 3px solid #444;
-  border-radius: .2em;
-  margin: 30px 15px;
-  padding: 5px 5px 40px 5px;
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#projectsPage img {
-  width: 500px;
-}
-
-#projectsPage h2 {
-  font-size: 1.4em;
-  padding: 10px 0px;
-}
-
-#projectsPage p {
-  font-size: 1.2em;
-  margin: 35px 0px 0px 0px;
-}
-
-#projectsPage h4 {
-  font-size: 1.1em;
-  margin: 15px;
-  padding: 25px 15px 25px 15px;
-  font-weight: 500;
-  border-top: 1px solid #e8e8e8;
-  border-radius: .1em;
-}
-
-#projectsPage a {
-  border: solid 1px #e8e8e8;
-  border-radius: .2em;
-  background-color: #2e2e2e;
-  color: #e8e8e8;
-  text-decoration: none;
-  padding: 10px 15px;
-  margin: 35px 15px 25px 15px;
-}
-
-#projectsPage a:hover {
-  border: solid 1px #e8e8e8;
-  border-radius: .2em;
-  background-color: #e8e8e8;
-  color: #2e2e2e;
+.fa-github:hover,
+.fa-instagram:hover,
+.fa-home:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background-color: transparent;
+  border-color: $primary-color;
+  color: $primary-color;
 }

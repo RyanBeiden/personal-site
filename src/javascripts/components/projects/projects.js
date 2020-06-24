@@ -43,7 +43,7 @@ const buildProjectCards = () => {
               <img src="${project.screenshot}">
               <p>${project.description}</p>
             </div>
-            <div class="tech">
+            <div class="usedTech">
         `;
       // eslint-disable-next-line no-plusplus
       for (let i = 0; i < project.technologiesUsed.length; i++) {

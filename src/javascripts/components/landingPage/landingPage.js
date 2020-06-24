@@ -1,9 +1,9 @@
-import bio from '../bioPage/bio';
+import bio from '../bio/bio';
+import tech from '../tech/tech';
 import utils from '../../helpers/utils';
 import projects from '../projects/projects';
-import tech from '../techPage/tech';
-import './landingPage.scss';
 import '../../../styles/main.scss';
+import './landingPage.scss';
 
 let domString = '';
 

@@ -1,18 +1,11 @@
 @import '../../../styles/styles';
 @import '../../../styles/mixins';
 
-.home {
-  font-size: 2em;
-  margin-left: 20px;
-}
-
-.fab,
-.fas {
+.fa-arrow-down {
   @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
 }
 
-.fab:hover,
-.fas:hover {
+.fa-arrow-down:hover {
   cursor: pointer;
   box-shadow: none;
   background-color: transparent;
@@ -87,7 +80,7 @@
   }
 }
 
-.tech {
+.usedTech {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

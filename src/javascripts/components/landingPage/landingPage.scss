@@ -2,27 +2,6 @@
 @import '../../../styles/mixins';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-/* Socials */
-
-.socials {
-  font-size: 2em;
-  margin-left: 20px;
-
-  .fab {
-    @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
-  }
-
-  .fab:hover {
-    cursor: pointer;
-    box-shadow: none;
-    background-color: transparent;
-    border-color: $primary-color;
-    color: $primary-color;
-  }
-}
-
-/* Navigation */
-
 .button-group {
   display: flex;
   justify-content: center;
