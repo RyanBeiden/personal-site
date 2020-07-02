@@ -21,7 +21,7 @@ const buildBio = () => {
         <div id="carouselExampleFade" class="carousel slide carousel-fade col" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="../../../src/assets/profile-1.jpeg" alt="First slide">
+              <img class="d-block w-100" src="profile-1.jpeg" alt="First slide">
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="../../../src/assets/profile-2.jpg" alt="Second slide">
