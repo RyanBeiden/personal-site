@@ -21,22 +21,28 @@ const buildBio = () => {
         <div id="carouselExampleFade" class="carousel slide carousel-fade col" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="profile-1.jpeg" alt="First slide">
+              <img class="d-block w-100" 
+                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-1.jpeg?alt=media&token=3fe4dc2e-c5d4-4014-a35b-2456b2594a06" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../../../src/assets/profile-2.jpg" alt="Second slide">
+              <img class="d-block w-100" 
+                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-2.jpg?alt=media&token=5575ef0f-a4b0-4497-b1f0-25a7f4935605" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../../../src/assets/profile-3.jpeg" alt="Third slide">
+              <img class="d-block w-100" 
+                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-3.jpeg?alt=media&token=5bebfc4e-98f0-4861-a115-53e1b6f376c8" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../../../src/assets/profile-4.jpeg" alt="Third slide">
+              <img class="d-block w-100" 
+                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-4.jpeg?alt=media&token=c82a7791-97b8-4efb-b0f8-f5a6f300ac30" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../../../src/assets/profile-5.JPG" alt="Third slide">
+              <img class="d-block w-100" 
+                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-5.JPG?alt=media&token=9a59c7c2-2010-4a17-9eff-ddbfb7769e4e" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="../../../src/assets/profile-6.jpeg" alt="Third slide">
+              <img class="d-block w-100" 
+                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-6.jpeg?alt=media&token=3da68cb4-53ba-4dfb-9759-057a80d1de8b" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
