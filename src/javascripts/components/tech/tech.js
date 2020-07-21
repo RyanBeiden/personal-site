@@ -18,7 +18,7 @@ const buildTech = () => {
     <div class="container">
       <h1 class="tech-title">Tech Knowledge Chart</h1>
       <div class="d-flex justify-content-center">
-        <img class="tech-table" src="../../../src/assets/tech.svg">
+        <img class="tech-table" src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Ftech.svg?alt=media&token=60236763-8d71-43af-b13e-f9700cb7f716">
       </div>
     </div>
   `;
