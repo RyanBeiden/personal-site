@@ -7,14 +7,13 @@
   padding: 0;
 }
 
-// Mountain Image
+// Background Colors
 
-.clear {
-  @include background('../assets/anapurna.jpg');
-}
-
-.blur {
-  @include background('../assets/anapurna-blur.jpg');
+body {
+  background: linear-gradient(130deg, $shadow-color 20%, $secondary-color 10%, $secondary-color 80%, $primary-color 50%);
+  // In case you want just b&w ->  background: linear-gradient(130deg, $secondary-color 50%, $primary-color 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 // Icons
@@ -24,19 +23,20 @@
 }
 
 .socials {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-left: 20px;
 }
 
 .home {
-  font-size: 1.9em;
+  font-size: 2.1em;
   margin-left: 20px;
 }
 
 .fa-github,
 .fa-instagram,
 .fa-home {
-  @include buttons(5px 10px, 10px, $primary-color, $secondary-color);
+  @include buttons(5px 10px, 10px, transparent, $primary-color);
+  // box-shadow: 5px 5px #000;
 }
 
 .fa-github:hover,
@@ -44,7 +44,7 @@
 .fa-home:hover {
   cursor: pointer;
   box-shadow: none;
-  background-color: transparent;
+  background-color: $primary-color;
   border-color: $primary-color;
-  color: $primary-color;
+  color: $shadow-color;
 }
