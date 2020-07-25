@@ -18,33 +18,21 @@ body {
 
 // Icons
 
-.icons {
-  position: fixed;
-}
-
-.socials {
-  font-size: 2.2em;
-  margin-left: 20px;
-}
-
-.home {
-  font-size: 2.1em;
-  margin-left: 20px;
-}
-
 .fa-github,
-.fa-instagram,
 .fa-home {
-  @include buttons(5px 10px, 10px, transparent, $primary-color);
-  // box-shadow: 5px 5px #000;
+  color: $secondary-color;
+  transition: ease-in-out 200ms;
+
+  font-size: 2.8em;
+
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .fa-github:hover,
 .fa-instagram:hover,
 .fa-home:hover {
   cursor: pointer;
-  box-shadow: none;
-  background-color: $primary-color;
-  border-color: $primary-color;
-  color: $shadow-color;
+  
+  color: #000;
 }

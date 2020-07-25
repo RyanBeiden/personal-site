@@ -29,6 +29,11 @@
     border: 5px solid #000;
     box-shadow: 7px 7px #000;
 
+      .socials {
+        justify-self: flex-start;
+        align-items: flex-start;
+      }
+
       h1 {
         text-align: center;
         color: $primary-color;
@@ -58,15 +63,28 @@
       li {
         @include buttons(10px 15px, 0px, $secondary-color, $primary-color);
         box-shadow: 5px 5px #000;
+
         list-style-type: none;
         font-family: $button-font;
+
+        margin: 15px;
       }
 
       li:hover {
+        cursor: pointer;
         box-shadow: none;
+
         background-color: $shadow-color;
         border-color: $shadow-color;
-        cursor: pointer;
       }
+  }
+
+  footer {
+    justify-self: flex-end;
+    align-self: flex-end;
+
+    font-family: $secondary-font;
+
+    padding: 0px 50px 25px 0px;
   }
 }
