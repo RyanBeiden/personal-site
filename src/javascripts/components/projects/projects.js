@@ -64,7 +64,6 @@ const buildProjectCards = () => {
       </div>
       `;
       utils.printToDom('#web-page', domString);
-      $('.clear').addClass('blur').removeClass('clear');
       $('body').on('click', '#go-home', utils.goHome);
       $('body').on('click', '#down-arrow', scrollEvent);
     })

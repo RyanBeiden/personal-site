@@ -5,27 +5,32 @@ import projects from '../projects/projects';
 import '../../../styles/main.scss';
 import './landingPage.scss';
 
-let domString = '';
-
 const buildLandingPage = () => {
+  let domString = '';
   domString += `
-    <div class="icons">
-      <div class="socials mt-4">
+    <div class="landing-container">
+      <div class="github mt-4">
         <a href="https://github.com/RyanBeiden" target="_blank"><i class="fab fa-github"></i></a>
       </div>
-      <div class="socials">
-        <a href="https://www.instagram.com/ryanbeiden" target="_blank"><i class="fab fa-instagram"></i></a>
-      </div>
+      <nav>
+        <div class="ryan-beiden">
+          <h1>Ryan Beiden</h1>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center pt-4 pb-4">
+          <h4>Software Developer</h4>
+          <h4>Travel Photographer</h4>
+          <h4>Culture Enthusiast</h4>
+        </div>
+        <ul class="button-group nav-group">
+          <a class="bio" id="bio"><li>Bio</li></a>
+          <a class="tech" id="tech"><li>Technologies</li></a>
+          <a class="proj" id="proj"><li>Projects</li></a>
+        </ul>
+      </nav>
+      <footer>
+        <p>© 2020 Ryan Beiden</p>
+      </footer>
     </div>
-    <nav class="landing-page">
-      <h1>Ryan Beiden</h1>
-      <h3>Software Developer | Travel Photographer | Culture Enthusiast</h3>
-      <ul class="button-group">
-        <span style="margin: 20px;"><a id="bio"><li>Bio</li></a></span>
-        <span style="margin: 20px;"><a id="tech"><li>Technologies</li></a></span>
-        <span style="margin: 20px;"><a id="proj"><li>Projects</li></a></span>
-      </ul>
-    </nav>
   `;
   utils.printToDom('#web-page', domString);
   $('body').on('click', '#proj', projects.buildProjectCards);
