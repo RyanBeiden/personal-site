@@ -2,6 +2,8 @@
 @import '../../../styles/mixins';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+// Desktop
+
 .landing-container {
   display: grid;
   grid-template-columns: 100%;
@@ -13,69 +15,72 @@
   padding: 0;
   margin: 0;
 
-  .button-group {
-    display: flex;
-    justify-content: center;
-  }
-
   nav {
-    grid-row: 2;
-
     @include colorMode($secondary-color, $primary-color);
 
     margin: 0 auto;
-    padding: 50px 50px 30px 50px;
+    padding: 45px 45px 30px 45px;
 
     border: 5px solid #000;
     box-shadow: 7px 7px #000;
 
-      .socials {
-        justify-self: flex-start;
-        align-items: flex-start;
+      .ryan-beiden {
+        align-self: center;
+        justify-self: center;
+
+        h1 {
+          text-align: center;
+          color: $primary-color;
+          font-family: $primary-font;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: .1em;
+          font-size: 4.8em;
+
+          margin: 0;
+          padding: 0;
+        }
       }
 
-      h1 {
+      h4 {
         text-align: center;
-        color: $primary-color;
-        font-family: $primary-font;
-        font-weight: 500;
-        text-transform: uppercase;
-        letter-spacing: .1em;
-        font-size: 4.8em;
-        margin: 0px 0px 25px 8px;
-      }
-
-      h3 {
         font-family: $secondary-font;
-        text-align: center;
         font-size: 1.3em;
         color: $primary-color;
-        padding: 0px 0px 30px 0px;
-        margin: 0;
+        border-right: 1px solid $primary-color;
+        border-left: 1px solid $primary-color;
+
+        padding: 0px 10px;
       }
 
-      ul {
-        padding: 0;
+      .nav-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
         font-size: 1.2em;
         letter-spacing: .1em;
-      }
 
-      li {
-        @include buttons(10px 15px, 0px, $secondary-color, $primary-color);
-        box-shadow: 5px 5px #000;
+        li {
+          align-self: center;
+          justify-self: center;
+          text-align: center;
 
-        list-style-type: none;
-        font-family: $button-font;
+          @include buttons(10px 15px, 0px, $secondary-color, $primary-color);
+          border-color: #000;
+          font-family: $button-font;
+          list-style-type: none;
+          box-shadow: 5px 5px #000;
 
-        margin: 15px;
-      }
+          margin: 15px;
+        }
 
-      li:hover {
-        cursor: pointer;
-        box-shadow: none;
+        li:hover {
+          cursor: pointer;
 
-        background-color: $shadow-color;
-        border-color: $shadow-color;
+          background-color: $shadow-color;
+          box-shadow: 2px 2px #000;
+        }
       }
   }
 
@@ -83,8 +88,62 @@
     justify-self: flex-end;
     align-self: flex-end;
 
-    font-family: $secondary-font;
+    p {
+      background-color: $primary-color;
+      border: 1px solid $secondary-color;
+      border-top-left-radius: .1em;
+      border-bottom: none;
+      border-right: none;
+      font-family: $secondary-font;
 
-    padding: 0px 50px 25px 0px;
+      margin: 0;
+      padding: 15px 20px;
+    }
+  }
+}
+
+// Tablet
+
+@media only screen and (max-width: 768px) and (min-width: 501px) {
+  .landing-container {
+    nav {
+      margin: 40px;
+
+      h4 {
+        margin: 15px 0px;
+      }
+    }
+  }
+}
+
+// Phone
+
+@media only screen and (max-width: 500px) {
+  .landing-container {
+    nav {
+      margin: 30px;
+      padding: 20px 30px;
+
+      .ryan-beiden {
+        h1 {
+          font-size: 2.5em;
+          text-align: center;
+
+          margin-top: 15px;
+        }
+      }
+
+      h4 {
+        font-size: 1em;
+
+        margin: 8px 0px;
+      }
+
+      .nav-group {
+        li {
+          font-size: .8em;
+        }
+      }
+    }
   }
 }

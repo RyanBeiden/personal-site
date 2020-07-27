@@ -11,9 +11,10 @@
 
 body {
   background: linear-gradient(130deg, $shadow-color 20%, $secondary-color 10%, $secondary-color 80%, $primary-color 50%);
-  // In case you want just b&w ->  background: linear-gradient(130deg, $secondary-color 50%, $primary-color 50%);
   background-repeat: no-repeat;
   background-size: cover;
+
+  background-color: $secondary-color;
 }
 
 // Icons
