@@ -16,10 +16,10 @@ const buildLandingPage = () => {
         <div class="ryan-beiden">
           <h1>Ryan Beiden</h1>
         </div>
-        <div class="d-flex flex-wrap justify-content-center pt-4 pb-4">
-          <h4>Software Developer</h4>
-          <h4>Travel Photographer</h4>
-          <h4>Culture Enthusiast</h4>
+        <div class="d-flex flex-wrap justify-content-center pt-4 pb-4 ryan-info">
+          <h4>[ Software Developer ]</h4>
+          <h4>[ Travel Photographer ]</h4>
+          <h4>[ Culture Enthusiast ]</h4>
         </div>
         <ul class="button-group nav-group">
           <a class="bio" id="bio"><li>Bio</li></a>

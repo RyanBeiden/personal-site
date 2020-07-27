@@ -47,8 +47,6 @@
         font-family: $secondary-font;
         font-size: 1.3em;
         color: $primary-color;
-        border-right: 1px solid $primary-color;
-        border-left: 1px solid $primary-color;
 
         padding: 0px 10px;
       }
@@ -89,15 +87,9 @@
     align-self: flex-end;
 
     p {
-      background-color: $primary-color;
-      border: 1px solid $secondary-color;
-      border-top-left-radius: .1em;
-      border-bottom: none;
-      border-right: none;
       font-family: $secondary-font;
 
-      margin: 0;
-      padding: 15px 20px;
+      margin: 0px 30px 30px 0px;
     }
   }
 }
@@ -126,16 +118,18 @@
 
       .ryan-beiden {
         h1 {
-          font-size: 2.5em;
+          font-size: 2.8em;
           text-align: center;
-
           margin-top: 15px;
         }
       }
 
+      .ryan-info {
+        padding: 10px 0px !important;
+      }
+
       h4 {
         font-size: 1em;
-
         margin: 8px 0px;
       }
 
@@ -143,6 +137,15 @@
         li {
           font-size: .8em;
         }
+      }
+    }
+
+    footer {
+      justify-self: center;
+      align-self: center;
+
+      p {
+        margin: 10px 0px 30px 0px;
       }
     }
   }
