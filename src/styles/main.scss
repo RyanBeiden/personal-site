@@ -37,3 +37,23 @@ body {
   
   color: #000;
 }
+
+// Project Cards
+
+.card {
+  background-color: transparent;
+  border: none;
+  padding: 20px 0px;
+}
+
+.card-body {
+  background-color: $secondary-color !important;
+  border: 2px solid $primary-color;
+
+  margin: 0;
+}
+
+.card-header {
+  background-color: transparent;
+  border: none;
+}
