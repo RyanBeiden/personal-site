@@ -1,26 +1,38 @@
 {
     "Tamagotchi Web App": {
-    "screenshot": "../../../src/assets/tamagotchi-demo.jpg",
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Ftamagotchi-demo.jpg?alt=media&token=594abbcd-fcc9-41cf-8b9d-e721f7962c82",
     "description": "This project consists of four sections where you can independently change the score of each section through two buttons that will either increase or decrease the points. I used functions that increase or decrease the integer based on the button's click event. My favorite part is the Tamagotchi shape and the responsiveness that was achieved through absolute/relative positioning and breakpoints/media queries.",
-    "technologiesUsed": ["HTML", "SASS", "Vanilla JavaScript"],
+    "technologiesUsed": ["HTML", "SASS", "JavaScript"],
     "available": true,
     "url": "https://rb-tamagotchi.web.app/",
-    "githubURL": "https://github.com/RyanBeiden/tamagotchi"
+    "githubURL": "https://github.com/RyanBeiden/tamagotchi",
+    "id": "tamagotchi"
   },
     "Bear Watcher Web App": {
-    "screenshot": "../../../src/assets/bear-watcher-demo.jpg",
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fbear-watcher-demo.jpg?alt=media&token=2910dae3-2b89-43c4-a7de-c075e2602e1e",
     "description": "This project is a basic form where you can add the name and image URL of a bear that will be added to a Brooks River section. Once a new bear is added, you can select if the bear attempted to catch a fish in the river, and then if they successfully caught the fish! There is a counter displaying the total number of fish caught as well as timestamps for each attempt and catch. I used Bootstrap forms timestamps all based on clicks of different buttons. My favorite addition is you cannot have more catches than attempts.",
     "technologiesUsed": ["CSS", "JavaScript", "ES6 Modules"],
     "available": true,
     "url": "https://rb-bear-watcher.web.app/",
-    "githubURL": "https://github.com/RyanBeiden/bear-watcher"
+    "githubURL": "https://github.com/RyanBeiden/bear-watcher",
+    "id": "bear"
   },
   "Sorting Hat Web App": {
-    "screenshot": "../../../src/assets/sorting-hat-demo.png",
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fsorting-hat-demo.png?alt=media&token=8b1c2691-484a-4aff-b679-05091f6fd1b9",
     "description": "This project will allow you to enter someone's name into a form, and this person will be assigned a random house. You have the option (if needed) to expel the student and remove them from their house.",
     "technologiesUsed": ["JavaScript", "HTML", "CSS"],
     "available": true,
     "url": "https://rb-sorting-hat.web.app/",
-    "githubURL": "https://github.com/RyanBeiden/sorting-hat"
+    "githubURL": "https://github.com/RyanBeiden/sorting-hat",
+    "id": "sorting"
+  },
+  "Pinterest Web App": {
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fpinterest-screenshot.png?alt=media&token=3ca5f16c-fa8c-45e9-a6b3-c2dc87a7fba3",
+    "description": "This project allows the user to sign-in through their Google account, allowing them to start creating boards and adding pins to them! You can start by creating a new board. Once created, you can view the board and add pins. When adding pins, you can upload an image that is added to Firebase Storage and displayed on your board.",
+    "technologiesUsed": ["JavaScript", "Firebase", "Axios", "SASS"],
+    "available": true,
+    "url": "https://pinterest-1e98b.web.app/",
+    "githubURL": "https://github.com/RyanBeiden/pinterest",
+    "id": "pinterest"
   }
 }
