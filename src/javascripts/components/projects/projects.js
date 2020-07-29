@@ -25,22 +25,19 @@ const buildProjectCards = () => {
               </div>
               <div id="collapse${project.id}" class="collapse" aria-labelledby="heading${project.id}" data-parent="#accordionExample">
                 <div class="card-body">
-                  <div class="projects-page row">
-                    <div class="col">
+                  <div class="projects-page">
+                    <div class="visuals">
                       <img class="container" src="${project.screenshot}">
-                      <div class="d-inline">
-                        <h3>Technologies Used:</h3>
-                        <div class="used-tech d-flex justify-content-center align-items-start">
+                      <h3>Technologies Used:</h3>
+                      <div class="used-tech">
             `;
-          // eslint-disable-next-line no-plusplus
-          for (let i = 0; i < project.technologiesUsed.length; i++) {
+          for (let i = 0; i < project.technologiesUsed.length; i += 1) {
             domString += `<h4>${project.technologiesUsed[i]}</h4>`;
           }
           domString += `
-                      </div>
                     </div>
                   </div>
-                  <div class="col project-data">
+                  <div class="project-data">
                     <p>${project.description}</p>
                     <div class="view-links">
                       <a href="${project.url}" target="_blank">View Project</a>
