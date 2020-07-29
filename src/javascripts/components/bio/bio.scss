@@ -1,48 +1,125 @@
 @import '../../../styles/styles';
 @import '../../../styles/mixins';
 
-.carousel {
-  width: 400px !important;
+.bio-title {
+  text-align: center;
+  font-size: 1.8em;
+
+  @include buttons(10px 15px, 0px, $secondary-color, $primary-color);
+  border-color: #000;
+  font-family: $button-font;
+  margin-top: 20px;
 }
 
-.carousel-item {
-  border: 4px solid $primary-color;
-  border-radius: .1em;
+.bio-text {
+  max-width: 550px !important;
+  justify-self: flex-start;
+
+  margin: 0;
+  padding: 0px 15px;
 }
 
 .bio-section {
-  padding: 150px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+
+  margin: 50px;
+
+  .profile-pic {
+    justify-self: flex-end;
+
+    margin: 0;
+    padding: 0px 15px;
+    
+    img {
+      max-width: 500px;
+      border: 4px solid $primary-color;
+      border-radius: .1em;
+  
+      padding: 0;
+    }
+  }
 
   p {
     border: 4px solid $primary-color;
     border-radius: .1em;
     padding: 15px;
+    margin: 0px 15px 15px 15px;
+    background-color: $secondary-color;
     color: $primary-color;
     font-size: 1.2em;
     font-weight: 500;
   }
 }
 
-.fa-facebook-f,
 .fa-camera-retro,
-.fa-pen-fancy,
+.fa-pencil-alt,
 .fa-envelope {
   text-align: center;
   border: none;
   border-radius: none;
   box-shadow: none;
   color: $primary-color;
-  background-color: transparent;
+  background-color: $secondary-color;
+  border-radius: .2em;
   font-size: 2em;
   margin: 10px;
-  padding: 0px;
+  padding: 10px;
   transition: ease-in 200ms;
 }
 
-.fa-facebook-f:hover,
 .fa-camera-retro:hover,
-.fa-pen-fancy:hover,
+.fa-pencil-alt:hover,
 .fa-envelope:hover {
   cursor: pointer;
-  color: $secondary-color;
+  color: $shadow-color;
+}
+
+// Tablet
+
+@media only screen and (max-width: 960px) {
+  .bio-section {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+
+    margin: 40px 0px 0px 0px;
+    padding: 0;
+
+    .profile-pic {
+      justify-self: center;
+
+      img {
+        max-width: 400px;
+      }
+    }
+
+    .bio-text {
+      justify-self: center;
+
+      margin-top: 50px;
+    }
+  }
+}
+
+// Phone
+
+@media only screen and (max-width: 487px) {
+  .bio-section {
+
+    .bio-text {
+
+      .fa-camera-retro,
+      .fa-pencil-alt,
+      .fa-envelope {
+        background-color: $secondary-color;
+        padding: 10px;
+        border-radius: .2em;
+      }
+
+      margin: 30px 0px 50px 0px;
+      padding: 0;
+    }
+  }
 }
