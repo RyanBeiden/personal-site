@@ -8,53 +8,21 @@ const buildBio = () => {
     <div class="home mt-4">
       <a id="go-home"><i class="fas fa-home"></i></a>
     </div>
+    <div class="d-flex justify-content-center">
+      <h1 class="bio-title">Bio</h1>
+    </div>
     <div class="bio-section">
-      <div class="container">
-        <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" 
-                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-1.jpeg?alt=media&token=3fe4dc2e-c5d4-4014-a35b-2456b2594a06" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" 
-                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-2.jpg?alt=media&token=5575ef0f-a4b0-4497-b1f0-25a7f4935605" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" 
-                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-3.jpeg?alt=media&token=5bebfc4e-98f0-4861-a115-53e1b6f376c8" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" 
-                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-4.jpeg?alt=media&token=c82a7791-97b8-4efb-b0f8-f5a6f300ac30" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" 
-                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-5.JPG?alt=media&token=9a59c7c2-2010-4a17-9eff-ddbfb7769e4e" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" 
-                src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-6.jpeg?alt=media&token=3da68cb4-53ba-4dfb-9759-057a80d1de8b" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+      <div class="profile-pic">
+        <img class="container"
+          src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fprofile-1.jpeg?alt=media&token=3fe4dc2e-c5d4-4014-a35b-2456b2594a06" alt="First slide">
       </div>
       <div class="bio-text">
-        <p>Hi, I'm Ryan! I was born and raised in Nashville, TN (I guess I am a unicorn). Growing up I rock climbed for sport and 
+        <p>Hi, I'm Ryan! I was born and raised in Nashville, TN (I guess I am a unicorn). Growing up, I rock climbed for sport and 
         traveled to multiple countries primarily in Asia for mission work. After High School I moved to Brisbane, Australia to attend a 
         school with YWAM. While there, I managed our bases website and started dabbling with CSS and found a love for it.
         From there on out I spent my free time learning to code HTML and CSS primarily to build my own websites. The problem solving is one 
         of my favorite things about Web Development. When something finally works like you want it to, that is so fulfilling, and I 
-        want to continue to chase those challenges.</br>
-        I am also newly engaged to a kind & beautiful girl named Hailey! (Image 3)</p>
+        want to continue to chase those challenges.</p>
         <div class="pl-2">
           <a href="https://ryanbeiden.com/portfolio" target="_blank"><i class="fas fa-camera-retro"></i></a>
           <a href="https://ryanbeiden.com/experiences" target="_blank"><i class="fas fa-pencil-alt" style="font-size: 1.8em;"></i></a>
