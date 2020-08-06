@@ -1,5 +1,5 @@
 # Personal Bio Site
-This web app displays my current projects (with deployed links and repository links), the technologies I work with and little bit about myself! This is a forever work in progress, but especially right now, as I am building my first web apps, I will be displaying them here for all to see.
+This web app displays my current projects (with deployed links and repository links), the technologies I work with and little bit about myself! This is a forever work in progress, enjoy!
 
 ## Preview
 
