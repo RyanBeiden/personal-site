@@ -5,13 +5,13 @@ This web app displays my current projects (with deployed links and repository li
 
 Projects page:
 
-![gif of projects section of web app](./src/assets/personal-projects-screenshot.png)
+![gif of projects section of the web app](./src/assets/bio-site-demo-2.gif)
 
 ---
 
 Bio & Technologies Pages:
 
-![gif of projects section of web app](./src/assets/personal-bio-site-demo-2.gif)
+![gif of projects section of web app](./src/assets/bio-site-demo-1.gif)
 
 ## Deployed Web App
 
@@ -24,7 +24,3 @@ Bio & Technologies Pages:
 
 ## Technologies Used
 [![JavaScript](https://img.shields.io/badge/-JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![SASS](https://img.shields.io/badge/-SASS-2c9fcc?style=flat-square)](#) [![JQuery](https://img.shields.io/badge/-JQuery-2c9fcc?style=flat-square)](#)
-
-#### Backlog/Roadmap
-
-- Mobile Responsiveness
