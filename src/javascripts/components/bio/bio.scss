@@ -50,6 +50,7 @@
     color: $primary-color;
     font-size: 1.2em;
     font-weight: 500;
+    font-family: $secondary-font;
   }
 }
 
@@ -107,6 +108,7 @@
 
 @media only screen and (max-width: 487px) {
   .bio-section {
+    margin-top: 10px;
 
     .bio-text {
 
