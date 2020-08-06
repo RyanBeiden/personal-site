@@ -10,6 +10,9 @@ const buildProjectCards = () => {
         <div class="home mt-4">
           <a id="go-home"><i class="fas fa-home"></i></a>
         </div>
+        <div class="d-flex justify-content-center">
+          <h1 class="title">Projects</h1>
+        </div>
         <div class="accordion container" id="accordionExample">
       `;
       projects.forEach((project) => {

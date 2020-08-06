@@ -57,3 +57,26 @@ body {
   background-color: transparent;
   border: none;
 }
+
+// Titles
+
+.title {
+  text-align: center;
+  font-size: 2em;
+
+  @include buttons(10px 15px, 0px, transparent, $primary-color);
+  border: none;
+  font-family: $button-font;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+  .title {
+    font-size: 1.5em;
+  }
+
+  .fa-home,
+  .fa-github {
+    font-size: 2.2em;
+  }
+}
