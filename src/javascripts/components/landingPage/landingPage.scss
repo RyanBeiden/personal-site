@@ -88,6 +88,7 @@
 
     p {
       font-family: $secondary-font;
+      color: #000;
 
       margin: 0px 30px 30px 0px;
     }
@@ -101,8 +102,16 @@
     nav {
       margin: 40px;
 
+      h1 {
+        line-height: 1em;
+      }
+
+      .ryan-info {
+        padding: 10px !important;
+      }
+
       h4 {
-        margin: 15px 0px;
+        margin: 8px 0px;
       }
     }
   }
@@ -112,6 +121,13 @@
 
 @media only screen and (max-width: 500px) {
   .landing-container {
+    grid-template-rows: .5fr 3fr .5fr;
+    height: auto;
+
+    .github {
+      align-self: flex-start;
+    }
+
     nav {
       margin: 30px;
       padding: 20px 30px;
@@ -125,17 +141,19 @@
       }
 
       .ryan-info {
-        padding: 10px 0px !important;
+        padding: 5px 0px !important;
       }
 
       h4 {
         font-size: 1em;
-        margin: 8px 0px;
+        margin: 5px 0px;
       }
 
       .nav-group {
         li {
           font-size: .8em;
+
+          margin: 10px;
         }
       }
     }

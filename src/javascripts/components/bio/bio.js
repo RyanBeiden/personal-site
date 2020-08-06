@@ -9,7 +9,7 @@ const buildBio = () => {
       <a id="go-home"><i class="fas fa-home"></i></a>
     </div>
     <div class="d-flex justify-content-center">
-      <h1 class="bio-title">Bio</h1>
+      <h1 class="title">Bio</h1>
     </div>
     <div class="bio-section">
       <div class="profile-pic">
