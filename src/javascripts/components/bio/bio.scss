@@ -44,6 +44,8 @@
       list-style-type: none;
       box-shadow: 5px 5px #000;
       text-align: center;
+      text-transform: none;
+      letter-spacing: .1em;
 
       a {
         color: $primary-color;
@@ -90,7 +92,7 @@
       justify-self: center;
 
       img {
-        max-width: 400px;
+        max-width: 500px;
       }
     }
 

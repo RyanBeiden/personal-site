@@ -5,7 +5,7 @@ import techData from '../../helpers/data/techData';
 
 const buildTech = () => {
   let domString = `
-    <div class="home mt-4">
+    <div class="home">
       <a id="go-home"><i class="fas fa-home"></i></a>
     </div>
     <div class="d-flex justify-content-center">
@@ -16,12 +16,17 @@ const buildTech = () => {
   techData.getTech()
     .then((allTech) => {
       allTech.forEach((tech) => {
-        const negativePercent = 100 - tech.percentage;
+        let negativePercent = 100 - tech.percentage;
+        const displayPercent = tech.percentage - 5;
+        if (tech.percentage >= 90) {
+          negativePercent += 5;
+        }
+
         domString += `      
           <div class="tech-container">
             <h2>${tech.techName}</h2>
             <div class="progress">
-              <div class="progress-bar full" role="progressbar"aria-valuemin="0" aria-valuemax="100" style="width: ${tech.percentage}%;"></div>
+              <div class="progress-bar full" role="progressbar"aria-valuemin="0" aria-valuemax="100" style="width: ${displayPercent}%;"></div>
               <div class="progress-bar empty" role="progressbar"aria-valuemin="0" aria-valuemax="100"
                 style="width: ${negativePercent}%; background-color="whitesmoke">${tech.percentage}%</div>
             </div>

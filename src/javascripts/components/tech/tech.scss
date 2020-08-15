@@ -64,16 +64,20 @@
     color: $secondary-color;
 
     text-align: right;
-    margin-right: 25px;
+    padding-right: 25px;
     font-weight: bold;
   }
 }
+
+// Tablet
 
 @media only screen and (max-width: 995px) and (min-width: 535px) {
   .tech-container {
     grid-template-columns: 25% 75%;
   }
 }
+
+// Phone
 
 @media only screen and (max-width: 534px) {
   .tech-container {
@@ -82,7 +86,11 @@
     h2 {
       font-size: 1em;
 
-      padding: 10px 5px;
+      padding: 5px;
+    }
+
+    .empty {
+      margin-left: 2px;
     }
   }
 }

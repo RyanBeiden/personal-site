@@ -10,11 +10,15 @@
 // Background Colors
 
 body {
-  background: linear-gradient(130deg, $shadow-color 20%, $secondary-color 10%, $secondary-color 80%, $secondary-color 50%);
   background-repeat: no-repeat;
   background-size: cover;
 
   background-color: $secondary-color;
+}
+
+.shadow-background {
+  position: absolute;
+  z-index: -1;
 }
 
 // Icons
@@ -28,6 +32,7 @@ body {
 
   padding: 10px;
   margin-left: 20px;
+  margin-top: 25px;
 }
 
 .fa-github:hover,
@@ -68,6 +73,13 @@ body {
   border: none;
   font-family: $button-font;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 510px) {
+  .fa-github,
+  .fa-home {
+    margin-top: 5px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
