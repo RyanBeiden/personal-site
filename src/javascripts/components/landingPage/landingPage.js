@@ -9,7 +9,7 @@ const buildLandingPage = () => {
   let domString = '';
   domString += `
     <div class="landing-container">
-      <div class="github mt-4">
+      <div class="github">
         <a href="https://github.com/RyanBeiden" target="_blank"><i class="fab fa-github"></i></a>
       </div>
       <nav>

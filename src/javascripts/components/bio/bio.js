@@ -5,7 +5,7 @@ import '../../../styles/main.scss';
 
 const buildBio = () => {
   const domString = `
-    <div class="home mt-4">
+    <div class="home">
       <a id="go-home"><i class="fas fa-home"></i></a>
     </div>
     <div class="d-flex justify-content-center">
