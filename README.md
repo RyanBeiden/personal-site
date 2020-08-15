@@ -5,13 +5,7 @@ This web app displays my current projects (with deployed links and repository li
 
 Projects page:
 
-![gif of projects section of the web app](./gifs/bio-site-demo-2.gif)
-
----
-
-Bio & Technologies Pages:
-
-![gif of projects section of web app](./gifs/bio-site-demo-1.gif)
+![Image of Web App](./gifs/site-screenshot.png)
 
 ## Deployed Web App
 
