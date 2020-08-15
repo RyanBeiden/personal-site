@@ -22,7 +22,7 @@ const buildLandingPage = () => {
           <h4>[ Culture Enthusiast ]</h4>
         </div>
         <ul class="button-group nav-group">
-          <a class="bio" id="bio"><li>Bio</li></a>
+          <a class="bio" id="bio"><li>About</li></a>
           <a class="tech" id="tech"><li>Technologies</li></a>
           <a class="proj" id="proj"><li>Projects</li></a>
         </ul>

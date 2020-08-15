@@ -10,11 +10,11 @@
 // Background Colors
 
 body {
-  background: linear-gradient(130deg, $shadow-color 20%, $secondary-color 10%, $secondary-color 80%, $primary-color 50%);
+  background: linear-gradient(130deg, $shadow-color 20%, $secondary-color 10%, $secondary-color 80%, $secondary-color 50%);
   background-repeat: no-repeat;
   background-size: cover;
 
-  background-color: $primary-color;
+  background-color: $secondary-color;
 }
 
 // Icons
