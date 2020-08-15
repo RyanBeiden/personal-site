@@ -1,0 +1,38 @@
+{
+  "html": {
+    "techName": "HTML",
+    "percentage": 90
+  },
+  "css": {
+    "techName": "CSS",
+    "percentage": 80
+  },
+  "javascript": {
+    "techName": "JavaScript",
+    "percentage": 65
+  },
+  "jquery": {
+    "techName": "JQuery",
+    "percentage": 55
+  },
+  "sass": {
+    "techName": "SASS",
+    "percentage": 50
+  },
+  "react": {
+    "techName": "React",
+    "percentage": 25
+  },
+  "lightroom": {
+    "techName": "Lightroom",
+    "percentage": 90
+  },
+  "photoshop": {
+    "techName": "Photoshop",
+    "percentage": 50
+  },
+  "xd": {
+    "techName": "XD",
+    "percentage": 20
+  }
+}
