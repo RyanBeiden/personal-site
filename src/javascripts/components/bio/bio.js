@@ -17,10 +17,10 @@ const buildBio = () => {
           src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fbio-pics.jpg?alt=media&token=8ba003e2-35e8-42f9-a7f4-9c18a37ecda5" alt="Profile Images">
         <div class="pl-2 contact-info">
           <div class="contact-buttons" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary"><a href="https://ryanbeiden.com/experiences" target="_blank">Blog</a></button>
+            <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/experiences" target="_blank">Blog</a></button>
             <button type="button" class="btn btn-secondary"><a href="mailto:rdbeiden@gmail.com" target="_blank">Email</a></button>
             <button type="button" class="btn btn-secondary"><a href="https://www.linkedin.com/in/ryan-beiden/" target="_blank">LinkedIn</a></button>
-            <button type="button" class="btn btn-secondary"><a href="https://ryanbeiden.com/portfolio" target="_blank">Photography</a></button>
+            <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/" target="_blank">Photography</a></button>
           </div>
         </div>
       </div>
