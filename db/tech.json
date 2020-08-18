@@ -5,15 +5,15 @@
   },
   "css": {
     "techName": "CSS",
-    "percentage": 80
+    "percentage": 90
   },
   "javascript": {
     "techName": "JavaScript",
-    "percentage": 65
+    "percentage": 70
   },
   "jquery": {
     "techName": "JQuery",
-    "percentage": 55
+    "percentage": 60
   },
   "sass": {
     "techName": "SASS",
@@ -21,18 +21,10 @@
   },
   "react": {
     "techName": "React",
-    "percentage": 25
+    "percentage": 30
   },
   "lightroom": {
     "techName": "Lightroom",
     "percentage": 90
-  },
-  "photoshop": {
-    "techName": "Photoshop",
-    "percentage": 50
-  },
-  "xd": {
-    "techName": "XD",
-    "percentage": 20
   }
 }
