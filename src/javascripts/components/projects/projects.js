@@ -8,10 +8,12 @@ const buildProjectCards = () => {
     .then((projects) => {
       let domString = `
         <div class="home">
-          <a id="go-home"><i class="fas fa-home"></i></a>
+          <a id="go-home"><i class="fas fa-arrow-left"></i></a>
         </div>
         <div class="d-flex justify-content-center">
-          <h1 class="title">Projects</h1>
+          <div class="typewriter">
+            <h1>Projects</h1>
+          </div>
         </div>
         <div class="accordion container" id="accordionExample">
       `;
