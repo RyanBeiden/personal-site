@@ -20,19 +20,20 @@ const buildBio = () => {
         <div class="pl-2 contact-info">
           <div class="contact-buttons" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/experiences" target="_blank">Blog</a></button>
-            <button type="button" class="btn btn-secondary"><a href="mailto:rdbeiden@gmail.com" target="_blank">Email</a></button>
-            <button type="button" class="btn btn-secondary"><a href="https://www.linkedin.com/in/ryan-beiden/" target="_blank">LinkedIn</a></button>
             <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/" target="_blank">Photography</a></button>
+            <button type="button" class="btn btn-secondary"><a href="mailto:rdbeiden@gmail.com" target="_blank">Email</a></button>
           </div>
         </div>
       </div>
       <div class="bio-text">
-        <p>Hi, I'm Ryan! I was born and raised in Nashville, TN (I guess I am a unicorn). Growing up, I rock climbed for sport and 
-        traveled to multiple countries primarily in Asia for mission work. After High School I moved to Brisbane, Australia to attend a 
-        school with YWAM. While there, I managed our bases website and started dabbling with CSS and found a love for it.
-        From there on out I spent my free time learning to code HTML and CSS primarily to build my own websites. The problem solving is one 
-        of my favorite things about Web Development. When something finally works like you want it to, that is so fulfilling, and I 
-        want to continue to chase those challenges.</p>
+        <p>
+        Before I gained interest in Software Development, I spent my time traveling to different parts of the world for mission work. A few of my favorite places would be Nepal,
+        India, and Japan (among others). I spent some time in Brisbane, Australia with YWAM (Youth With A Mission). At the time, photography was my greatest passion, and I needed a
+        platform to display my work from my travels. I built a portfolio site and that was the moment I realized I really enjoy and thrive in web design and development. I came home
+        with a new passion! From that point on I dedicated my time to learning new skills, whether it was how the technology that we use daily works (thanks to my job at Apple), or a new
+        programming language (thanks to many online courses).<br/>
+        <a class="btn btn-secondary mt-3" href="https://www.linkedin.com/in/ryan-beiden/" target="_blank">Read More</a>
+        </p>
       </div>
     </div>
   `;
