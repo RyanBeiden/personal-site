@@ -5,7 +5,7 @@ This Web App displays my projects (with deployed links and repository links), th
 
 Projects page:
 
-![Image of Web App](./gifs/site-demo1.png)
+![Image of Web App](./gifs/site-demo.png)
 
 ## Deployed Web App
 
