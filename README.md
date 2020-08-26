@@ -15,4 +15,4 @@ This Web App displays my projects (with deployed links and repository links), th
 - `$ npm start` to view 👀
 
 ## Technologies Used
-[![JavaScript](https://img.shields.io/badge/-JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![SASS](https://img.shields.io/badge/-SASS-2c9fcc?style=flat-square)](#) [![JQuery](https://img.shields.io/badge/-JQuery-2c9fcc?style=flat-square)](#)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![SASS](https://img.shields.io/badge/-SASS-2c9fcc?style=flat-square)](#) [![Firebase](https://img.shields.io/badge/-Firebase-2c9fcc?style=flat-square)](#) [![Axios](https://img.shields.io/badge/-Axios-2c9fcc?style=flat-square)](#) [![JQuery](https://img.shields.io/badge/-JQuery-2c9fcc?style=flat-square)](#)
