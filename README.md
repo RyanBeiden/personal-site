@@ -7,7 +7,7 @@ This Web App displays my projects (with deployed links and repository links), th
 
 ## Deployed Web App
 
-[https://ryanbeiden.web.app/](https://ryanbeiden.web.app/)
+[https://ryanbeiden.com/](https://ryanbeiden.com/)
 
 ## View Project
 - Clone the repository 👉🏼 `$ git clone https://github.com/RyanBeiden/personal-bio-site.git`
