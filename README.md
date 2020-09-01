@@ -3,7 +3,7 @@ This Web App displays my projects (with deployed links and repository links), th
 
 ## Preview
 
-![Image of Web App](./gifs/site-demo-screenshot.png)
+![Image of Web App](./gifs/desktop-demo-screenshot.png)
 
 ## Deployed Web App
 
