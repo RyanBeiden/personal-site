@@ -28,7 +28,7 @@ const buildLandingPage = () => {
         </ul>
       </nav>
       <footer>
-        <p>© 2020 Ryan Beiden</p>
+        <p>Created by Ryan Beiden</p>
       </footer>
     </div>
   `;
