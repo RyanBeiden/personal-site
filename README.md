@@ -1,4 +1,4 @@
-# Personal Bio Site
+# Personal Site
 This Web App displays my projects (with deployed links and repository links), the technologies I work with and used in the projects and little bit about myself! This is a forever work in progress 🚀
 
 ## Preview
