@@ -1,6 +1,15 @@
 {
-    "Tamagotchi": {
-    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Ftamagotchi-demo.jpg?alt=media&token=594abbcd-fcc9-41cf-8b9d-e721f7962c82",
+  "Hold My Color": {
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fhmc-screenshot.png?alt=media&token=05aa3881-033c-4ccb-b6da-73cc981139f9",
+    "description": "Build your color palettes with ease. Hold My Color is a web app where a user can build their color palette perfect to their next project. A Github user receives the same features as a Google user, which is to create a palette with names to your colors that can be exported in a SASS file, but also the option to create an issue for a linked repository as a style guide.",
+    "technologiesUsed": ["React", "SASS", "Firebase", "Github API", "Material UI"],
+    "available": true,
+    "url": "https://holdmycolor.com/",
+    "githubURL": "https://github.com/RyanBeiden/hold-my-color",
+    "id": "hold-my-color"
+  },
+  "Tamagotchi": {
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Ftamagotchi-screenshot.png?alt=media&token=159e81e0-f71d-4a98-8daa-883caf97cfb4",
     "description": "This project consists of four sections where you can independently change the score of each section through two buttons that will either increase or decrease the points. I used functions that increase or decrease the integer based on the button's click event. My favorite part is the Tamagotchi shape and the responsiveness that was achieved through absolute/relative positioning and breakpoints/media queries.",
     "technologiesUsed": ["HTML", "SASS", "JavaScript"],
     "available": true,
@@ -8,8 +17,8 @@
     "githubURL": "https://github.com/RyanBeiden/tamagotchi",
     "id": "tamagotchi"
   },
-    "Bear Watcher": {
-    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fbear-watcher-demo.jpg?alt=media&token=2910dae3-2b89-43c4-a7de-c075e2602e1e",
+  "Bear Watcher": {
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fbw-screenshot.png?alt=media&token=2455f96d-945a-42bf-ad57-8da3147fa7b9",
     "description": "This project is a basic form where you can add the name and image URL of a bear that will be added to a Brooks River section. Once a new bear is added, you can select if the bear attempted to catch a fish in the river, and then if they successfully caught the fish! There is a counter displaying the total number of fish caught as well as timestamps for each attempt and catch. I used Bootstrap forms and timestamps all based on clicks of different buttons. My favorite addition is you cannot have more catches than attempts.",
     "technologiesUsed": ["CSS", "JavaScript", "ES6 Modules"],
     "available": true,
@@ -21,13 +30,13 @@
     "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fjurassic-screenshot.png?alt=media&token=7eba2a40-ec0c-4ef7-9df6-c55e6228c21c",
     "description": "A single-page Web App completed with a group of 8 people at Nashville Software School. This app allows you track and edit the dinosaurs, staff, vendors, rides, equipment, and staff schedules. The data you see and access you have to make changes all depends on being signed in through Google. There are some other surprises in there, so check it out!",
     "technologiesUsed": ["JavaScript", "SASS", "Firebsase", "Axios"],
-    "available": true,
+    "available": false,
     "url": "https://nutshell-riendeer.web.app/",
     "githubURL": "https://github.com/RyanBeiden/nutshell-reindeer",
     "id": "jurassic"
   },
   "Le Baguette": {
-    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fle-baguette-screenshot.png?alt=media&token=c758b557-9f5c-45ac-b579-671f74672a0e",
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fle-baguette-screenshot.png?alt=media&token=8a329ae5-94bf-45b4-b38b-544515ea8e82",
     "description": "This project allows you to keep track of the restaurant's menu, current ingredients, staff, and reservations. The data you see and access you have to make changes all depends on being signed in through Google. Our team utilized the CRUD method (Create, Read, Update, & Delete) while connected to the Google Firebase API. My favorite piece of this Web App is our styling choices.",
     "technologiesUsed": ["JavaScript", "SASS", "Firebsase", "Axios", "Bootstrap"],
     "available": true,
@@ -36,7 +45,7 @@
     "id": "baguette"
   },
   "Pinterest": {
-    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fpinterest-screenshot.png?alt=media&token=3ca5f16c-fa8c-45e9-a6b3-c2dc87a7fba3",
+    "screenshot": "https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fpinterest-screenshot.png?alt=media&token=afa82731-2a2d-4362-92f6-7a0f5b67bd17",
     "description": "This project begins with the user signing in through their Google account, which then allows them to start creating boards and adding pins to them! You can create a new board, then view the board and add pins to it. When adding pins, you can upload an image that is added to Firebase Storage and displayed on your board. Pushing and pulling the images from Firebase storage to use within the App is my favorite addition.",
     "technologiesUsed": ["JavaScript", "Firebase", "Axios", "SASS"],
     "available": true,
