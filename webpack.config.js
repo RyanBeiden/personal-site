@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const ESLintPlugin = require('eslint-webpack-plugin');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
@@ -6,15 +7,6 @@ module.exports = {
   devtool: "eval-source-map",
   module: {
     rules: [
-      {
-        enforce: "pre",
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "eslint-loader",
-	options: {
-          formatter: require('eslint/lib/cli-engine/formatters/stylish')
-        }
-      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -50,6 +42,9 @@ module.exports = {
     ]
   },
   plugins: [
+    new ESLintPlugin({
+      formatter: require('eslint/lib/cli-engine/formatters/stylish')
+    }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
       filename: "./index.html"

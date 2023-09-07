@@ -26,8 +26,8 @@
     "css-loader": "^3.6.0",
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.21.2",
+    "eslint-webpack-plugin": "2.4.3",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
@@ -42,7 +42,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
-    "firebase": "^7.15.1",
+    "firebase": "^7.24.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
