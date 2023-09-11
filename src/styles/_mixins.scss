@@ -3,9 +3,7 @@
   margin: $margin;
   background-color: $background;
   color: $color;
-  border: 2px solid $primary-color;
-  border-radius: .1em;
-  text-transform: uppercase;
+  border: 2px solid $color;
   transition: ease-in-out 200ms;
 }
 

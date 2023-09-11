@@ -33,7 +33,7 @@ const buildProjectCards = () => {
                   <div class="projects-page">
                     <div class="visuals">
                       <img class="container" src="${project.screenshot}">
-                      <h3>Technologies Used:</h3>
+                      <h3>Technologies Used</h3>
                       <div class="used-tech">
             `;
           for (let i = 0; i < project.technologiesUsed.length; i += 1) {
@@ -45,8 +45,8 @@ const buildProjectCards = () => {
                   <div class="project-data">
                     <p>${project.description}</p>
                     <div class="view-links">
-                      <a href="${project.url}" target="_blank">View Project</a>
-                      <a href="${project.githubURL}" target="_blank">View Repository</a>
+                      <a href="${project.url}" target="_blank">view project</a>
+                      <a href="${project.githubURL}" target="_blank">view repository</a>
                     </div>
                   </div>
                 </div>
