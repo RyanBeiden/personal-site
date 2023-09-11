@@ -18,8 +18,8 @@ const buildTech = () => {
   techData.getTech()
     .then((allTech) => {
       allTech.forEach((tech) => {
-        const negativePercent = 100 - tech.percentage + 5;
-        const displayPercent = tech.percentage - 5;
+        const negativePercent = 100 - tech.percentage;
+        const displayPercent = tech.percentage;
 
         domString += `      
           <div class="tech-container">
@@ -27,7 +27,7 @@ const buildTech = () => {
             <div class="progress">
               <div class="progress-bar full" role="progressbar"aria-valuemin="0" aria-valuemax="100" style="width: ${displayPercent}%;"></div>
               <div class="progress-bar empty" role="progressbar"aria-valuemin="0" aria-valuemax="100"
-                style="width: ${negativePercent}%; background-color="whitesmoke">${tech.percentage}%</div>
+                style="width: ${negativePercent}%; background-color="whitesmoke"></div>
             </div>
           </div>`;
       });

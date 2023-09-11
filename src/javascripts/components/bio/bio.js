@@ -19,20 +19,19 @@ const buildBio = () => {
           src="https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fbio-pics.jpg?alt=media&token=8ba003e2-35e8-42f9-a7f4-9c18a37ecda5" alt="Profile Images">
         <div class="pl-2 contact-info">
           <div class="contact-buttons" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/experiences" target="_blank">Blog</a></button>
-            <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/" target="_blank">Photography</a></button>
-            <button type="button" class="btn btn-secondary"><a href="mailto:rdbeiden@gmail.com" target="_blank">Email</a></button>
+            <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/experiences" target="_blank">blog</a></button>
+            <button type="button" class="btn btn-secondary"><a href="https://ryan-beiden.squarespace.com/" target="_blank">photography</a></button>
+            <button type="button" class="btn btn-secondary"><a href="mailto:rdbeiden@gmail.com" target="_blank">email</a></button>
           </div>
         </div>
       </div>
       <div class="bio-text">
         <p>
-        Before I gained interest in Software Development, I spent my time traveling to different parts of the world for mission work. A few of my favorite places would be Nepal,
-        India, and Japan (among others). I spent some time in Brisbane, Australia with YWAM (Youth With A Mission). At the time, photography was my greatest passion, and I needed a
-        platform to display my work from my travels. I built a portfolio site and that was the moment I realized I really enjoy and thrive in web design and development. I came home
-        with a new passion! From that point on I dedicated my time to learning new skills, whether it was how the technology that we use daily works (thanks to my job at Apple), or a new
-        programming language (thanks to many online courses).<br/>
-        <a class="btn btn-secondary mt-3" href="https://www.linkedin.com/in/ryan-beiden/" target="_blank">Read More</a>
+        Before I gained interest in software development, I spent my time traveling to different parts of the world and photographing. A few of my favorite places I went to were Nepal,
+        India, and Japan (among others). While living in Brisbane, Australia, I decided I needed a platform to display my work from my travels. I built a portfolio site and that was when I 
+        found a love for web development. I now have 2+ years of professional development experience working on many projects that require diligence, aptitude for new frameworks and APIs, 
+        and collaboration. I thrive in an environment that establishes standards and conventions while actively exploring new practices.<br/>
+        <a class="btn btn-secondary mt-3" href="https://www.linkedin.com/in/ryanbeiden/" target="_blank">read more</a>
         </p>
       </div>
     </div>

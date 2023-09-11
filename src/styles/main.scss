@@ -10,7 +10,8 @@
 // Background Colors
 
 body {
-  background-color: $secondary-color;
+  background-color: $primary-color;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/ryanbeiden.appspot.com/o/images%2Fryans-website-bg-slower.gif?alt=media&token=52ff78b2-ceac-4af5-a5bf-4bef7537b51d");
 }
 
 .shadow-background-top {
@@ -24,8 +25,8 @@ body {
 
 .fa-github,
 .fa-arrow-left {
+  background-color: $primary-color;
   color: $secondary-color;
-  transition: ease-in-out 200ms;
 
   font-size: 2.8em;
 
@@ -38,8 +39,6 @@ body {
 .fa-instagram:hover,
 .fa-arrow-left:hover {
   cursor: pointer;
-  
-  color: #000;
 }
 
 // Project Cards
@@ -51,7 +50,7 @@ body {
 }
 
 .card-body {
-  background-color: $secondary-color !important;
+  background-color: $primary-color !important;
   border: 2px solid $primary-color;
 
   margin: 0;
@@ -66,20 +65,20 @@ body {
 
 .typewriter {
   display: inline-block;
+  background-color: $primary-color;
+  padding: 10px;
 
     h1 {
     overflow: hidden;
     white-space: nowrap;
-
-    border-right: .1em solid $primary-color;
-    border-radius: .05em;
-    font-family: $button-font;
+    border-right: .5em solid $secondary-color;
+    font-family: $primary-font;
     font-size: 2em;
     text-transform: uppercase;
-    color: $primary-color;
+    color: $secondary-color;
 
     margin: 0 auto;
-    padding: 0px 5px;
+    padding: 0;
 
     animation: 
       typing 1.5s steps(16, end),
@@ -98,7 +97,7 @@ body {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: $primary-color; }
+  50% { border-color: $secondary-color; }
 }
 
 // Tablet

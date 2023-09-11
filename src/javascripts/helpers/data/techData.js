@@ -14,7 +14,17 @@ const getTech = () => new Promise((resolve, reject) => {
           allTech.push(techObjects[tech]);
         });
       }
-      resolve(allTech);
+      resolve(allTech.sort((a, b) => {
+        if (a.percentage < b.percentage) {
+          return 1;
+        }
+
+        if (b.percentage < a.percentage) {
+          return -1;
+        }
+
+        return 0;
+      }));
     })
     .catch((err) => reject(err));
 });
